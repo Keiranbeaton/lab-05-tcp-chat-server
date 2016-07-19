@@ -36,3 +36,6 @@ let server = net.createServer(function(socket) {
     }
   });
 });
+server.listen('3000', function() {
+  console.log('server up');
+});
